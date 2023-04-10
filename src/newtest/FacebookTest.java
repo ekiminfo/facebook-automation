@@ -16,9 +16,9 @@ public class FacebookTest {
 	     
 	     //sign in to Facebook
 	     WebElement username = driver.findElement(By.id("email"));
-	     username.sendKeys("micheal_adeniyi@yahoo.co.uk");
+	     username.sendKeys("test@gmail.com");
 	     WebElement password = driver.findElement(By.id("pass"));
-	     password.sendKeys("1690mike");
+	     password.sendKeys("password10");
 	     WebElement loginButton = driver.findElement(By.cssSelector("button[name='login']"));
 	     loginButton.click();
 	     
